@@ -32,16 +32,11 @@ Click on Add new device icon.
 
 Select the option pair from dropdown under the device type. Click next.
 
-image
 
 Open the virtual serial port emulator and select device type as pair and click next which directs to select a pair of COMx and COMy.
 Select COM1 from 1st list and COM2 from 2nd list and click Finish. This is done to establish a communication as shown below.
 
-image
-
 A window appears as shown below on successful connection
-
-image
 
 Edit the component - Ultrasonic Sensor
 
@@ -60,7 +55,6 @@ In the ultrasonic sensor field. There is an option to select file. Select UltraS
 
 Double click on the COMPIM device and in the physical port select COM2 and set the Physical baud rate and virtual baud rate to 9600 from the dropdown. Then click okay.
 
-image
 
 Now, open command prompt and type the following 3 commands to communicate between the devices.
 
@@ -81,7 +75,6 @@ This opens a dialog box, if the verbose output during compilation check box is u
 Now, run the Arduino file.
 After compilation, the path of .hex file can be found as shown below
 
-image
 
 Copy the path of that file and go to proteus and double click on Arduino and paste the .hex file link in the program file section of arduino.
 
